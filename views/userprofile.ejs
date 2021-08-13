@@ -1,0 +1,83 @@
+<!-- 
+
+<h1>
+    User Profile
+</h1>
+<p>
+    After Login the user will reach here.
+</p>
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/logout">Logout</a></li>
+</ul>
+
+
+-->
+
+
+
+<style>
+    html {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 100%;
+
+        background: #7c7acc;
+    }
+
+
+
+    .login-button {
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        background: transparent;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #af0e24;
+        cursor: pointer;
+        opacity: 1;
+        animation: input_opacity 0.8s cubic-bezier(.55, 0, .1, 1);
+        transition: background 0.2s ease-in-out;
+    }
+
+    .last_1 {
+        color: #c20d0d;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 500;
+
+    }
+
+    .last_2 {
+        color: #1d20a1;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 500;
+
+    }
+</style>
+
+
+
+
+<div class="last_2">
+    <h1>LOGIN SUCCESSFUL !!</h1>
+</div>
+
+<a href="/">
+    <div class="last_1"><button type="submit" class="login-button"><b><h2>LOG OUT</h2></b></button></div>
+</a>
+
+
+
+
+

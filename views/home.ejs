@@ -1,0 +1,65 @@
+
+
+<style>
+    html {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 100%;
+
+        background: #07dddd;
+    }
+
+
+
+.login-button {
+padding: 10px;
+border: none;
+border-radius: 3px;
+background: transparent;
+font-family: 'Roboto', sans-serif;
+font-size: 0.9rem;
+font-weight: 500;
+color: #32af19;
+cursor: pointer;
+opacity: 1;
+animation: input_opacity 0.8s cubic-bezier(.55, 0, .1, 1);
+transition: background 0.2s ease-in-out;
+}
+
+.last_1 {
+color: #c04208;
+font-family: 'Roboto', sans-serif;
+font-size: 0.9rem;
+font-weight: 500;
+
+}
+
+.last_2 {
+color: #1d20a1;
+font-family: 'Roboto', sans-serif;
+font-size: 0.9rem;
+font-weight: 500;
+
+}
+
+</style>
+
+
+
+<div class="last_2"><h1>LOGIN SYSTEM</h1></div>
+
+    <a href="/login">
+        <div class="last_1"><button type="submit" class="login-button">LOGIN HERE</button></div>
+    </a>
+    <br>
+    <a href="/register">
+        <div class="last_2"><button type="submit" class="login-button">REGISTER HERE</button></div>
+    </a>
+
